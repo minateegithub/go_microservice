@@ -1,14 +1,14 @@
-##Data base information
+## Data base information
 
 MongoDB information such as db url, data base name and collection name are mentioned in the .env file
 
 ## REST APIs
 
-###GET /enrollees
+### GET /enrollees
 
 It returns all the enrollee records from db.
 
-###POST /enrollee
+### POST /enrollee
 
 It saves an enrollee record to db along with its dependent information.
 
@@ -30,7 +30,7 @@ Sample request:
 				]
 }
 
-###GET /enrollee/:enrolleeId
+### GET /enrollee/:enrolleeId
 
 It returns an enrollee record along with its dependents from db for the provided enrolleeId.
 
